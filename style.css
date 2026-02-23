@@ -1,0 +1,58 @@
+body{
+    background-image: url(bg-img.jpg);
+    text-align: center;
+}
+
+h1,h2{
+    color: #ffffff;
+    text-shadow: 0 0 10px #00ffff,0 0 20px #00ffff;
+}
+
+.btn{
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+    border: 3px solid #ffffff;
+    box-shadow: 0 0 10px #00ffff,0 0 20px #00ffff;
+    margin: 2rem;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.pink{
+    background-color: #ff4da6;
+    border: 3px solid #ffffff;
+    box-shadow: 0 0 20px rgba(255,255,255,0.8);
+}
+
+.orange{
+    background-color:#ff9933;
+    border: 3px solid #ffffff;
+    box-shadow: 0 0 20px rgba(255,255,255,0.8);
+}
+
+.blue{
+    background-color: #33ffff;
+    border: 3px solid #ffffff;
+    box-shadow: 0 0 20px rgba(255,255,255,0.8);
+}
+
+.purple{
+    background-color: #3399ff;
+    border: 3px solid #ffffff;
+    box-shadow: 0 0 20px rgba(255,255,255,0.8);
+}
+
+.flash{
+    background-color: white;
+    box-shadow: 0 0 30px rgba(255,255,255,1);
+    
+}
+
+.userflash{
+    background-color:rgba(255,255,255,0.7);
+}
